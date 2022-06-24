@@ -3,13 +3,19 @@
 _Created by Maegan Stayrook_
 
 Description:
-
+A fun exercise through MIT MERN Full Stack course to generate a seemingly endless amount of PacMen at the touch of a button. Play now!
 
 How to Run:
-
+1. Click "Let's make some PacMen!" button to generate PacMen.
+2. Click "Animate PacMen!" button to make them move.
+3. Click "Start over!" to refresh the screen.
+4. Done with the game? Check out Maegan's portfolio by clicking on "Check out my portfolio!"
 
 Roadmap:
-- 
+- Bring the buttons to the "front" so the PacMen do not float over them, blocking the buttons.
+- Have them interact with one another and bounce off one another.
+- Have more fun text.
+- Maybe add ghosts! If the ghosts hit a PacMan, it's a 50/50 chance on which one disappears.
 
 License: MIT License
 

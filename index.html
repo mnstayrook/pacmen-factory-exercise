@@ -1,13 +1,23 @@
 <html>
 
 <head>
-    <title>Pacmen</title>
+    <title>Pacmen Factory</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+    <div class="centered">
+        <h1 class="header1">PacMen Factory</h1>
+        <div class="center">
+            <button onclick='makeOne()' width='200' height='30'>Let's make some PacMen!</button> <br>
+            <button onclick='update()' width='200' height='30'>Animate PacMen!</button>
+            <button onclick="window.location.reload();">Start over!</button>
+            <br>
+            <a href="https://mnstayrook.github.io"><button>Check out my portfolio!</button></a>
+        </div>
+    </div>
+
     <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
     </div>
 
     <!-- DO NOT CHANGE THIS LINE OF CODE -->
